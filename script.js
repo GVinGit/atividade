@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src='script.js'></script>
+    <title>Formulario</title>
+
+</head>
+<body style='background-color:rgb(0, 0, 0)'>
+    <center>
+        <form>
+        <h1>Formulario de Tchola</h1>
+        <hr size=altura_da_linha width=largura alin=alinhamento> 
+    <input type="text" placeholder="Digite seu nome">
+    <p></p>
+    <input type="email" placeholder="Digite seu email">
+    <p></p>
+    <input type="password" placeholder=" Digite sua senha"
+    <p></p>
+    <button type="submit">Enviar</button>
+    <hr size=altura_da_linha width=largura alin=alinhamento> 
+    </form>
+    </center>
+
+<center>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <div class="caixa">caixa1</div>
+    <div class="caixa">caixa2</div>
+    <div class="caixa">caixa3</div>
+</center>
+
+</body>
+</html>
