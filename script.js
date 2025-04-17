@@ -1,4 +1,4 @@
-//1. O Mago dos Tipo
+    //1. O Mago dos Tipo
 let feitiço = "Lumos";
 let nívelDeMana = 87;
 let invisível = false;
@@ -120,3 +120,71 @@ if (idadeCinema <= 12) {
 }
 
 //12. Poção Misteriosa
+let ingrediente1 = "pele de sapo";
+let ingrediente2 = "asa de morçego";
+
+if ( ingrediente1 == "pele de sapo" && ingrediente2 == "asa de morçego") {
+    console.log("Poção pronta!");
+} else {
+    console.log("Mistura errada!");
+}
+
+//13. Festa VIP
+
+let nome1 = "Joana";
+let temComvite = true;
+
+if (nome1 === "Joana" || temComvite === true) {
+    console.log("Pode entrar na festa");
+} else {
+    console.log("Não pode entrar na festa.");
+}
+
+//14. Passeio com o Pet
+let previsaoTempo = "sol";
+let tempoLivre = true;
+
+if (previsaoTempo == "sol" && tempoLivre) {
+    console.log("Hora do passeio!");
+} else {
+    console.log("Hoje não vai dar...");
+}
+
+//15. sorveteria Gelada
+let sabor = "morango";
+
+if(sabor === "chocolate" || sabor === "morango" || sabor === "baunilha") {
+    console.log(`Servindo sorvete de ${sabor}`);
+} else {
+    console.log("Sabor indisponivel");
+}
+    
+//16. MasterChef Lógico
+let temIngredientePrincipal = true;
+let temTemperoSecreto = true;
+
+if (temIngredientePrincipal || temTemperoSecreto) {
+    console.log("Prato especial pronto!");
+} else {
+    console.log("Sem os ingredientes necessários");
+}
+
+//17. Laboratório de Comparações
+let valor1 = "100";
+let valor2 = 100;
+
+if (valor1 == valor2) {
+    console.log("== compara apenas os valores");
+} else if (valor1 === valor2) {
+    console.log("=== compara apenas os caracteres");
+}
+
+//18. Esqui na Montanha
+let idadeEsqui = 16;
+let temEquipamento = true;
+
+if (idadeEsqui >= 16 && temEquipamento == true) {
+    console.log("Pode esquiar!")
+} else {
+    console.log("Não liberado.")
+}
