@@ -1,6 +1,6 @@
 
 form {
-    width: 400px;
+    width: 500px;
     padding: 50px;
     border-radius: 40px;
     box-shadow: 1px 5px 45px rgba(162, 0, 255, 0.562);
@@ -11,10 +11,11 @@ form {
 
 button{
     width: 100px;
-    color:rgb(132, 0, 255);
+    color:rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 5px 45px rgba(162, 0, 255, 0.250);
+    background-color: rgba(0, 0, 0, 0.575);
 }
 
 input{
@@ -22,10 +23,43 @@ input{
     padding: 15px;
     border-radius: 20px;
     box-shadow: 1px 5px 45px rgba(162, 0, 255, 0.250);
+    background-color: #d1f4fa94;color: rgba(255, 255, 255, 0.849);
+    background-color: rgba(0, 255, 170, 0.025); 
+  }
+  input::placeholder {
+    color: #ffffff6b;
 }
+input:focus {
+    border: 2px solid rgba(162, 0, 255, 0.150);
+    outline: none;
+    box-shadow: 1px 5px 45px rgba(162, 0, 255, 0.600);
+
+  }
+  #mensagi {
+    width: 300px;
+    font-size: 16;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc59;
+    
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff8e;
+  }
+
+
+
+
+
 
 h1{
-    color: rgba(255, 255, 255, 0.795);  
+    color: rgba(255, 255, 255, 0.651);  
 }
 
 .caixa{
@@ -45,7 +79,7 @@ h1{
 }
 
 body{
-    background-image: url('imagi.avif');
+    background-image: url('imagiiii.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
