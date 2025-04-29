@@ -188,7 +188,7 @@ let idadeEsqui = 16;
 let temEquipamento = true;
 
 if (idadeEsqui >= 16 && temEquipamento) {
-    console.log("Pode esquiar!");
+    console.log("Pode esquiar!")
 } else {
     console.log("Não liberado.");
 }
@@ -340,7 +340,7 @@ let pontosAlvo = 69;
 if (pontosAlvo >= 80 && pontosAlvo <= 100) {
     console.log("Você ganhou medalha de ouro!");
 } else {
-    console.log("Sua medalha não foi de ouro.");
+    console.log("Sua medalha não foi de ouro.")
 }
 
 //36.Misturando Cores
@@ -348,7 +348,7 @@ let cor1 = "roxo";
 let cor2 = "preto";
 
 if (cor1 == "azul" && cor2 == "amarelo") {
-    console.log("A mistura de cores deu verde.");
+    console.log("A mistura de cores deu verde,");
 } else {
     console.log("Cor inválida.");
 }
@@ -369,7 +369,7 @@ let temFantasias;
 if (temFantasias && data == 31) {
     console.log("Doces para você!");
 } else {
-    console.log("Sem doces pra ti.");
+    console.log("Sem doces pra ti.")
 }
 
 //39.Teste de Congelamento
@@ -378,7 +378,7 @@ let temperatura = -4;
 if (temperatura < 0) {
     console.log("Água congelando!");
 } else {
-    console.log("Precisa estar mais frio pra congelar a água.");
+    console.log("Precisa estar mais frio pra congelar a água.")
 }
 
 //40.Jogo da Memória
@@ -388,38 +388,107 @@ let respostaCerta = "azul, verde, vermelho";
 if (resposta == respostaCerta) {
     console.log("Você venceu!"); 
 } else {
-    console.log("Tente novamente.");
+    console.log("Tente novamente.")
 }
 
 //41.Dragão Acordado
-let dragaoDormindo = true;
+let dragãoAcordado = true;
 
-if (dragaoDormindo) {
-    console.log("É seguro passar!");
+if (dragãoAcordado) {
+    console.log("Dragão está dormindo, é seguro passar!");
 } else {
-    console.log("Fuja!");
+    console.log("Cuidado! O dragão está acordado!");
 }
 
 //42.Level Up
-let pontuacao = 1001;
+let nivel = 1001;
 
-if (pontuacao >= 1000) {
+if (nivel >= 1000) {
     console.log("Você subiu de nível!");
 } else {
-    console.log("Tente novamente.");
+    console.log("Continue jogando para subir de nível.");
 }
 
 //43.Poção Mágica
-let ingredentesRaros = true;
+let ingredientesRaros = true;
 let temCaldeirao = true;
 
-if (ingredentesRaros && temCaldeirao) {
-    console.log("Preparando a poção!");
+if (ingredientesRaros && temCaldeirao) {
+    console.log("Poção mágica criada!");
 } else {
-    console.log("Não foi possivel fazer a poção.");
+    console.log("Ingredientes ou caldeirão faltando.");
 }
 
-//44.Código Secreto 
-let codigo = "combra-lunar";
+//44.Código Secreto
+let codigo = "sombra-lunar";
 
-if ()
+if (codigo == "sombra-lunar") { 
+    console.log("Código correto!");
+} else {
+    console.log("Código incorreto.");
+}
+
+//45.Duelo de Cavaleiros
+let energiaJogador1 = 50;
+let energiaInimigo = 30;
+
+if (energiaJogador1 > energiaInimigo) {
+    console.log("Você venceu o duelo!");
+} else if (energiaJogador1 < energiaInimigo) {
+    console.log("Você perdeu o duelo.");
+} else {
+    console.log("Empate!");
+}
+
+//46.Previsão do Tempo
+let estaNublado = true;
+let estaChovendo = true;
+
+if (estaNublado || estaChovendo) {
+    console.log("Leve um guarda-chuva.");
+} else {
+    console.log("O tempo está bom.");
+}
+
+//47.Desafio das Cores
+let corEscolhida = "azul"; "vermelho"; "verde";
+
+if (corEscolhida == "vermelho" || corEscolhida == "azul" || corEscolhida == "verde") {
+    console.log("Cor válida!");
+} else {
+    console.log("Cor inválida.");
+}
+
+//48.Aprovado ou Reprovado
+let media = 7;
+
+if (media >= 7) {
+    console.log("Aprovado!");
+} else{
+    console.log("Reprovado.");
+} 
+
+//49.Bússola do Herói
+let direção = "norte";
+
+if (direção == "norte") {
+    console.log("Você está indo para o norte.");
+} else if (direção == "sul") {
+    console.log("Você está indo para o sul.");
+}
+else if (direção == "leste") {
+    console.log("Você está indo para o leste.");
+} else if (direção == "oeste") {
+    console.log("Você está indo para o oeste.");
+} else {
+    console.log("Direção inválida.");
+} 
+
+//50.Salvar Progresso
+let salrPressionnado = true;
+
+if (salrPressionnado) {
+    console.log("Progresso salvo!");
+} else {
+    console.log("Erro ao salvar progresso.");
+}
