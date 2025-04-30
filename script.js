@@ -492,3 +492,87 @@ if (salrPressionnado) {
 } else {
     console.log("Erro ao salvar progresso.");
 }
+
+
+
+
+//ARRAY
+
+//29. Carrinho de Frutas
+const carrinho = ["Maçã", "Banana", "Morango", "Abacaxi"];
+console.log("Frutas no carrinho:");
+carrinho.forEach(fruta => console.log(fruta));
+//30. Mira Certa
+const pontuacoes = [150, 340, 275, 400, 310];
+const maiorPontuacao = Math.max(...pontuacoes);
+console.log("Maior pontuação:", maiorPontuacao);
+//31. Inventário do Herói
+const inventario = ["Espada", "Escudo", "Poção", "Armadura"];
+const primeiroItem = inventario[0];
+const ultimoItem = inventario[inventario.length - 1];
+console.log("Primeiro item:", primeiroItem);
+console.log("Último item:", ultimoItem);
+//32. Lista de Compras
+const listaCompras = ["Arroz", "Feijão", "Leite", "Pão"];
+console.log("Total de itens:", listaCompras.length);
+//33. Playlist do Dia
+const playlist = ["Música 1", "Música 2", "Música 3"];
+for (let i = 0; i < playlist.length; i++)
+{
+console.log(playlist[i]);
+}
+//34. Soma Total
+const numeros = [10, 20, 30, 40];
+let soma = 0;
+for (let num of numeros)
+{
+
+soma += num;
+}
+console.log("Soma total:", soma);
+//35. Corrida de Robôs
+const tempos = [12.7, 13.6, 13.5, 14.0];
+let total = 0;
+for (let tempo of tempos)
+{
+total += tempo;
+}
+let mediaTemp = total / tempos.length;
+console.log("Tempo médio dos robôs:", mediaTemp.toFixed(2));
+//36. Procurando Itens
+const lista = ["chave", "carteira", "celular"];
+const itemProcurado = "carteira";
+if (lista.includes(itemProcurado))
+{
+console.log("Encontrado!");
+}
+else
+{
+console.log("Não está na lista.");
+}
+//37. Boletim Escolar
+const notas = [7.5, 6.0, 8.0, 9.0];
+let somaNotas = 0;
+for (let nota of notas)
+{
+somaNotas += nota;
+}
+let mediaFinal = somaNotas / notas.length;
+console.log("Média final:", mediaFinal.toFixed(2));
+console.log(mediaFinal >= 7 ? "Aprovado!" : "Reprovado!");
+//38. Catálogo de Filmes
+const filmes = ["Matrix", "Inception", "Interestelar"];
+
+for (let filme of filmes)
+{
+console.log(`Você vai assistir: ${filme}`);
+}
+//39. Teclado Virtual
+const teclasPressionadas = ["A", "B", "C", "D"];
+console.log(teclasPressionadas.join("-"));
+//40. Contagem Regressiva
+for (let i = 5; i >= 1; i--)
+{
+console.log(i);
+}
+console.log("Decolar!");
